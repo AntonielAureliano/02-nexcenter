@@ -227,6 +227,10 @@ a {
     padding: 14px 32px;
 }
 
+.shadow {
+    box-shadow: 5px 5px 15px rgba(171, 190, 209, 20%);
+}
+
 header {
     height: 84px;
 }
@@ -311,6 +315,52 @@ nav>ul>li>a:hover {
     max-width: 70ch;
 }
 
+.section-customers {
+    background-color: var(--neutral-silver);
+    padding: 32px 144px;
+}
+
 .section-customers p {
     max-width: 74ch;
+}
+
+.section-updates p {
+    max-width: 65ch;
+}
+
+.section-updates li {
+    height: 366px;
+    width: 368px;
+}
+
+.section-updates-processes {
+    background-image: url('./images/image-18.png');
+    background-repeat: no-repeat;
+}
+
+.section-updates-responsibilities {
+    background-image: url('./images/image-19.png');
+    background-repeat: no-repeat;
+}
+.section-updates-membership {
+    background-image: url('./images/image-20.png');
+    background-repeat: no-repeat;
+}
+
+.section-updates>ul>li {
+    align-content: end;
+    display: grid;
+    justify-content: center;
+}
+
+.section-updates>ul>li>div {     
+    background-color: var(--neutral-silver);
+    border-radius: 8px;
+    
+    
+    
+    height: 176px;
+    padding: 16px;
+    
+    width: 317px;
 }
